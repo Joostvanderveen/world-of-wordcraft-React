@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+:root {
+  --Primary-color: #fab900;
+  --Text-color: #fff;
+  --Text-font: "Righteous", cursive;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  /* **** */
+  font-family: var(--Text-font);
+  position: relative;
+  height: 100vh;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  /* no line is drawn, and any existing decoration is removed */
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Making React Compponents */
+.component-border {
+  /* border: 2px solid red; */
+}
+
+/* Header */
+.header-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 120px;
+  background-color: var(--Primary-color);
+}
+
+.logo {
+  width: 60vw;
+}
+
+.logo-text {
+  font-size: 4rem;
+  color: var(--Text-color);
+  margin-left: 40px;
+}
+
+.navbar-wrapper {
+  width: 40vw;
+  font-size: 4rem;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 40px;
+}
+
+.navbar ul a {
+  color: var(--Text-color);
+}
+
+.btn-navbar:hover {
+  border-bottom: var(--Text-color) 2px solid;
+}
+/* Header End */
+
+/* Mid Section */
+.mid-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 2.2%;
+  height: 700px;
+}
+
+.mid-top-part {
+  display: flex;
+  height: 400px;
+  margin: 4px;
+  padding: 20px;
+  /* background-color: blue; */
+}
+
+.info-block {
+  width: 600px;
+  background-color: var(--Primary-color);
+  margin: 0 0 0 170px;
+  color: var(--Text-color);
+  padding: 40px;
+}
+
+.character-block {
+  width: 600px;
+  background-color: var(--Primary-color);
+  margin: 0 40px;
+  /* color: var(--Text-color); */
+  color: var(--Primary-color);
+  background-image: url(../assets/hero.jpg);
+  background-size: cover;
+  border: var(--Primary-color) 2px solid;
+  box-sizing: border-box;
+}
+
+.mid-bottom-part {
+  display: flex;
+  justify-content: center;
+  height: 292px;
+  margin: 4px;
+  padding: 20px;
+  /* background-color: blue; */
+}
+
+.show-word-block {
+  width: 600px;
+  /* background-color: green; */
+  margin: 0 20px;
+}
+
+.input-word-block {
+  width: 600px;
+  /* background-color: greenyellow; */
+  margin: 0 20px;
+}
+.info-text {
+  margin: 50px 0 0 10px;
+  color: var(--Primary-color);
+}
+.input-field {
+  width: 80%;
+  height: 60px;
+  font-size: 3rem;
+  border: var(--Primary-color) 5px solid;
+  margin: 10px;
+  color: var(--Primary-color);
+}
+
+.wordfield {
+  width: 80%;
+  height: 60px;
+  font-size: 3rem;
+  border: var(--Primary-color) 5px solid;
+  margin: 10px;
+  color: var(--Primary-color);
+  background-color: var(--Text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wordfield-text {
+  margin: 50px 0 0 10px;
+  color: var(--Primary-color);
+}
+
+.buttons-word-block {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  /* background-color: grey; */
+}
+
+.btn {
+  margin: 20px 0;
+  width: 180px;
+  height: 80px;
+  cursor: pointer;
+  font-family: var(--Text-font);
+  color: var(--Text-color);
+  background-color: var(--Primary-color);
+  border-radius: 5px;
+  font-size: 2rem;
+}
+
+.btn:hover {
+  background-color: red;
+  transition: ease-out 600ms;
+}
+/* Mid Section End */
+
+/* Footer */
+/* https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ */
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 80px;
+  background-color: var(--Primary-color);
+  color: var(--Text-color);
+}
+/* Footer End */

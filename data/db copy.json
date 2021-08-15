@@ -1,0 +1,24 @@
+{
+  "wordPairList": [
+      {
+          "question": "Vuurtoren",
+          "answer": "Lighthouse"
+      },
+      {
+          "question": "Verkeer",
+          "answer": "Traffic"
+      },
+      {
+          "question": "Auto",
+          "answer": "Car"
+      },
+      {
+          "question": "Domberg",
+          "answer": "Dumbmountain"
+      },
+      {
+          "question": "Muis",
+          "answer": "Mouse"
+      }
+  ]
+}
